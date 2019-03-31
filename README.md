@@ -15,7 +15,7 @@
     !{sys.executable} -m pip install numpy  
     ```
     2. Reset the machine (didn't find a more convinate way)
-9. Test out the instance using GPU code (see code programmers_guide).
+9. Test out the instance using GPU code ([see code programmers_guide](https://www.tensorflow.org/programmers_guide/using_gpu)).
    ```python
    # https://www.tensorflow.org/programmers_guide/using_gpu
    import tensorflow as tf

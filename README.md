@@ -16,5 +16,5 @@
     ```
     2. Reset the machine (didn't find a more convinate way)
 9. Test out the instance using GPU code ([see code programmers_guide](https://www.tensorflow.org/programmers_guide/using_gpu)).
-10. [gpustat](https://github.com/wookayin/gpustat) - htop equivalent.
-11. Deep your mind!
+ 10. [gpustat](https://github.com/wookayin/gpustat) - htop equivalent.
+ 11. Deep your mind!

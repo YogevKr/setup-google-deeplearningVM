@@ -16,17 +16,5 @@
     ```
     2. Reset the machine (didn't find a more convinate way)
 9. Test out the instance using GPU code ([see code programmers_guide](https://www.tensorflow.org/programmers_guide/using_gpu)).
-   ```python
-   # https://www.tensorflow.org/programmers_guide/using_gpu
-   import tensorflow as tf
-   # Creates a graph.
-   with tf.device('/cpu:0'):
-      a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
-      b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
-   c = tf.matmul(a, b)
-   # Creates a session with log_device_placement set to True.
-   sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
-   # Runs the op.
-   print(sess.run(c))
-   ```
-10. Deep your mind!
+10. [gpustat](https://github.com/wookayin/gpustat) - htop equivalent.
+11. Deep your mind!

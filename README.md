@@ -29,4 +29,4 @@
    # Runs the op.
    print(sess.run(c))
    ```
-10. Deep you mind!
+10. Deep your mind!
